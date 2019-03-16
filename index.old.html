@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Compliment Cube</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="img/ico" href="img/favicon.ico">
+    <style media="screen">
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111773113-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111773113-1');
+    </script>
+  </head>
+  <body>
+
+    <h1>Boyle Quest</h1>
+
+    <section class="container">
+      <div id="cube" class="show-front">
+        <figure class="monday">You look great in that</figure>
+        <figure class="tuesday"></figure>
+        <figure class="wednesday"></figure>
+        <figure class="thursday"></figure>
+        <figure class="friday"></figure>
+        <figure class="saturday"></figure>
+      </div>
+    </section>
+
+    <section id="options">
+      <p id="show-buttons">
+        <button class="show-monday">Monday</button>
+        <button class="show-tuesday">Tuesday</button>
+        <button class="show-wednesday">Wednesday</button>
+        <button class="show-thursday">Thursday</button>
+        <button class="show-friday">Friday</button>
+        <button class="show-saturday">Saturday</button>
+      </p>
+    </section>
+
+    <hr>
+
+    <h2>Share this Cube:</h2>
+    <div id="cubeUrl"></div>
+    <button onclick="copyToClipboard('#cubeUrl')">Copy</button>
+
+    <h2>Make your own Cube:</h2>
+    <form class="make-cube-form">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Monday">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Tuesday">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Wednesday">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Thursday">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Friday">
+        <input required type="text" minlength="3" maxlength="100" placeholder="Saturday">
+        <input type="submit" value="Make">
+    </form>
+
+    <p class="footer">Credit to <a href="https://desandro.github.io/3dtransforms/">Desandro.</a> Copyright <a href="supersimplegames.net">Super Simple Games</a>.</p>
+
+    <script src="js/utils.js"></script>
+    <script src="js/rotate-box.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>

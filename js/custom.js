@@ -40,7 +40,7 @@ $('.btn-judge-answer').click(function() {
 function nextLocation() {
 	$('.btn-next-location').hide();
 
-	loc++; console('loc is now: '+loc);
+	loc++; console.log('loc is now: '+loc);
 	pts = 10;
 	if (loc == quest.length) { pts = 50; }; //final question worth 50
 

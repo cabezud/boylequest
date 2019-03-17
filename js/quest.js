@@ -70,7 +70,7 @@ var quest = [
 		"r":"Right!<br>Fun fact, moss often grows on the north side of trees because there is more shade (in the northern hemisphere)"
 	},
 	{
-		"f":"Congrats on making it this far, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. Can you find three hands together?",
+		"f":"Congrats, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. Can you find three hands together?",
 		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square?",
 		"a":"2048",
 		"h":"ask an adult to use their calculator",

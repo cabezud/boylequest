@@ -105,12 +105,14 @@ var initCustom = function() { console.log("initCustom fired.")
 
 	var scoreParam = url.searchParams.get("score");
 	if (scoreParam != null) {
+		scoreParam = parseInt(scoreParam);
 		if (typeof scoreParam == 'number') {
 			score = scoreParam; console.log('score reset to: '+score);
 		}
 	};
 	var locParam = url.searchParams.get("loc");
 	if (locParam != null) {
+		locParam = parseInt(locParam);
 		if (typeof locParam == 'number') {
 			loc = locParam; console.log('loc reset to: '+loc);
 		}

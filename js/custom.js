@@ -1,3 +1,4 @@
+console.log('load custom.js');
 var loc = 0;
 var score = 0;
 var pts = 10;

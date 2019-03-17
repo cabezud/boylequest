@@ -14,15 +14,15 @@ $('.group-a').click(function(){
 	nextLocation(); $('.pts-section').show();
 });
 $('.group-b').click(function(){
-	changeStartLoc(7);
+	changeStartLoc(10);
 	nextLocation(); $('.pts-section').show();
 });
 $('.group-c').click(function(){
-	changeStartLoc(14);
+	changeStartLoc(13);
 	nextLocation(); $('.pts-section').show();
 });
 $('.group-d').click(function(){
-	changeStartLoc(18);
+	changeStartLoc(17);
 	nextLocation(); $('.pts-section').show();
 });
 

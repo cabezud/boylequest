@@ -3,7 +3,7 @@ var quest = [
 		"f":"Take me out to the ball game, take me out to the crowd.<br>Buy me some peanuts and Cracker Jacks, I don't care if I ever come back.<br>For it's root, root, root for the ____ team.",
 		"q":"Mill Valley Little League provides a sign with some advice for people watching a game. How many different *roles* are mentioned in their advice?",
 		"a":"6",
-		"h":"don't forget the 'players' and 'professionals'",
+		"h":"Don't forget the 'players' and 'professionals'",
 		"r":"Right!\n6 (players, professionals, managers, coaches, umpires, volunteers)"
 	},
 	{

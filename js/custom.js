@@ -96,3 +96,22 @@ function updatePtsSection() {
 	$('.q-num').text( loc );
 	$('.pts-value').text( pts );
 };
+
+var initCustom = function() {
+	var url_string = window.location.href;
+	var url = new URL(url_string);
+
+	var scoreParam = url.searchParams.get("score");
+	if (scoreParam != null) {
+		if (typeof scoreParam == 'number') {
+			score = scoreParam;
+		}
+	};
+	var locParam = url.searchParams.get("loc");
+	if (locParam != null) {
+		if (typeof locParam == 'number') {
+			loc = locParam;
+		}
+	};
+};
+window.addEventListener( 'DOMContentLoaded', initCustom, false);

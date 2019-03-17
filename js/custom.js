@@ -39,7 +39,7 @@ $('.btn-judge-answer').click(function() {
 function nextLocation() {
 	$('.btn-next-location').hide();
 
-	loc++;
+	loc++; console('loc is now: '+loc);
 	pts = 10;
 	if (loc == quest.length) { pts = 50; }; //final question worth 50
 
@@ -97,7 +97,7 @@ function updatePtsSection() {
 	$('.pts-value').text( pts );
 };
 
-var initCustom = function() {
+var initCustom = function() { console.log("initCustom fired.")
 	var url_string = window.location.href;
 	var url = new URL(url_string);
 	console.log(url);

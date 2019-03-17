@@ -100,6 +100,7 @@ function updatePtsSection() {
 var initCustom = function() {
 	var url_string = window.location.href;
 	var url = new URL(url_string);
+	console.log(url);
 
 	var scoreParam = url.searchParams.get("score");
 	if (scoreParam != null) {

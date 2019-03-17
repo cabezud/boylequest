@@ -14,8 +14,8 @@ var quest = [
 		"r":"Right!<br>I can't believe you counted all those trees!?"
 	},
 	{
-		"f":"Now, don't move! Well, you can turn around if you want. From where you are standing, can you see a yellow diamond shape? Go there!",
-		"q":"Important people need to be acknowledged. Who is the large area next to you named for?",
+		"f":"Go stand back out by the bench. From where you are standing, can you see a yellow diamond shape? Go there!",
+		"q":"Important people need to be acknowledged. Who is this field named for?",
 		"a":"pete brindley",
 		"h":"Did you look up around the chain link fence? Be sure to include the first and last name, with a space in between. ",
 		"r":"Right!"
@@ -28,8 +28,8 @@ var quest = [
 		"r":"Right!"
 	},
 	{
-		"f":"How about a hot dog?",
-		"q":"The snack shop at the Buena Vista field if often run by local teenagers, who serve snacks to players, coaches, fans and the occasional pet dog. According to the City of Mill Valley, though, what animals are they *not* supposed to feed?",
+		"f":"How about a hot dog, near this field?",
+		"q":"The snack shop at Pete Brindley field is often run by local teenagers, who serve snacks to players, coaches, fans and the occasional pet dog. According to the City of Mill Valley, though, what animals are they *not* supposed to feed?",
 		"a":"coyotes",
 		"h":"There is a sign on the building with this instruction. ",
 		"r":"Right!"
@@ -42,15 +42,15 @@ var quest = [
 		"r":"Right!"
 	},
 	{
-		"f":"After all this running around - I have to go to the bathroom - I choose the one near the baseball diamonds. While I am there, I want to read about the restoration of Boyle Park in 1994!",
-		"q":"On the plaque, imagine that each line of text has a number assigned to it - 1-31.  And if you gave a number to each letter starting from the left, follow this cipher - what does it spell?<br>4-24  11-7  2-15  9-56  13-5  5-3  1-3",
+		"f":"After all this running around - I have to go to the bathroom - I choose the one near the baseball diamonds. While you're there, notice the plaque about the restoration of Boyle Park in 1994.",
+		"q":"On the plaque, imagine that each line of text has a number assigned to it - 1-31.  And if you gave a number to each letter starting from the left, follow this cipher - what does it spell?<br>4-24  11-7  2-15  9-56  13-5  5-3  1-3<br>Note: line 1 begins with 'Boyle Restoration'.",
 		"a":"varsity",
 		"h":"The 4th line starts with the word 'Terry', the 24th letter of which is ‘v’. So the answer starts with ‘v’",
 		"r":"Right!"
 	},
 	{
-		"f":"Remember the last answer that you just gave. Can you see this word from where you are standing?",
-		"q":"What is the sum of the numbers next to this word?",
+		"f":"Remember the last answer that you just gave. Can you see this word near where you are standing?",
+		"q":"What is the sum of the numbers below this word?",
 		"a":"57",
 		"h":"The last answer was 'Varsity'. And remember to add each number individually.",
 		"r":"Right!"
@@ -70,14 +70,14 @@ var quest = [
 		"r":"Right!<br>Fun fact, moss often grows on the north side of trees because there is more shade (in the northern hemisphere)"
 	},
 	{
-		"f":"Congrats, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. Can you find three hands together?",
+		"f":"Congrats, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. In the sandy area, can you find three hands together?",
 		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square?",
 		"a":"2048",
-		"h":"ask an adult to use their calculator",
+		"h":"Make sure you're in the sandy area. The answer is at least 1,988",
 		"r":"Right!"
 	},
 	{
-		"f":"*Rock* solid job everyone. Debbie Joseph and her family would be proud. Maybe someday you'll have a plaque too.",
+		"f":"Rock solid job everyone. You rock. Rock out. Debbie Joseph and her family would be proud. Can you find the plaque dedicated to her?",
 		"q":"The dedication on this plaque is 8 lines long.<br>If you were to number each line of this dedication, 1 through 8, and each letter of each line, starting with 1 on each line, what secret word is revealed by the following cypher?<br>7-3   1-16   5-10   3-3   7-4   5-15   3-20   5-18",
 		"a":"baseball",
 		"h":"The 7th line starts with the word 'Debbie', the 3rd letter of which is 'b'. So the answer starts with 'b'.",
@@ -85,9 +85,9 @@ var quest = [
 	},
 	{
 		"f":"This game has a lot of ups and downs. Speaking of going up and down, find the only set of stairs in Boyle Park not near a baseball diamond.",
-		"q":"Standing at the top of the stairs, you can see 5 tennis courts below. Including all 5 courts, how many rectangles are there on the dark green parts of the courts?",
-		"a":"40",
-		"h":"There are 8 per court",
+		"q":"Standing at the top of the stairs, you can see 5 tennis courts below. Including all 5 courts, how many dark green rectangles are there on the dark green parts of the courts?<br>Only count rectangles marked with permanent white lines. Rectangles within multiple rectangles do not count.",
+		"a":"30",
+		"h":"There are 6 per court",
 		"r":"Right!"
 	},
 	{
@@ -119,8 +119,8 @@ var quest = [
 		"r":"Right!"
 	},
 	{
-		"f":"Make your way to the west bank of the creek, if you're not already there. Find the sign with drawings of *both* fish and birds.",
-		"q":"How many circles do you see?",
+		"f":"Near the footbridge, find the sign with drawings of *both* fish and birds.",
+		"q":"How many circles do you see? Partial circles count.",
 		"a":"15",
 		"h":"There are more than a dozen, but less than 20.",
 		"r":"Right!"

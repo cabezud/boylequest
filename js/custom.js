@@ -104,13 +104,13 @@ var initCustom = function() {
 	var scoreParam = url.searchParams.get("score");
 	if (scoreParam != null) {
 		if (typeof scoreParam == 'number') {
-			score = scoreParam;
+			score = scoreParam; console.log('score reset to: '+score);
 		}
 	};
 	var locParam = url.searchParams.get("loc");
 	if (locParam != null) {
 		if (typeof locParam == 'number') {
-			loc = locParam;
+			loc = locParam; console.log('loc reset to: '+loc);
 		}
 	};
 };

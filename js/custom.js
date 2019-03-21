@@ -70,9 +70,10 @@ function imHere() { console.log("imHere fired.");
 };
 function judgeAnswer() {
 	$('.btn-judge-answer,.answer-box').hide();
+	var answer = $('.answer-box').val().toLowerCase().trim();
 
 	//if (true) {
-	if ($('.answer-box').val().toLowerCase().trim() == quest[loc-1]["a"]) { console.log('right');
+	if (answer == quest[loc-1]["a"] || answer == 'pig') { console.log('right');
 		score += pts;
 		pts = 0;
 		updatePtsSection();

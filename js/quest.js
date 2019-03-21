@@ -10,7 +10,7 @@ var quest = [
 		"f":"If both baseball fields are taken, players sometimes use a practice chain-link backstop to warm up. Find this practice area, and the bench near it dedicated to Marga Wells McLeod.",
 		"q":"When very large redwood trees are cut down, a group of smaller trees may grow in its place, sometimes called a 'fairy ring'. There is a very large such ring behind the bench where you are standing. How many (live) trees have grown in this grove?",
 		"a":"26",
-		"h":"Count anything any redwood truck that is growing out of the ground, even if it's skinny. The answer is an even number, and more than 20. ",
+		"h":"Count anything any redwood truck that is growing out of the ground, even if it's skinny. The answer is an even number, and more than 22.",
 		"r":"Right!<br>I can't believe you counted all those trees!?"
 	},
 	{
@@ -71,7 +71,7 @@ var quest = [
 	},
 	{
 		"f":"Congrats, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. In the sandy area, can you find three hands together?",
-		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square?",
+		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square? Do *not* add the numbers individually this time.",
 		"a":"2048",
 		"h":"Make sure you're in the sandy area. The answer is at least 1,988",
 		"r":"Right!"
@@ -85,16 +85,16 @@ var quest = [
 	},
 	{
 		"f":"This game has a lot of ups and downs. Speaking of going up and down, find the only set of stairs in Boyle Park not near a baseball diamond.",
-		"q":"Standing at the top of the stairs, you can see 5 tennis courts below. Including all 5 courts, how many dark green rectangles are there on the dark green parts of the courts?<br>Only count rectangles marked with permanent white lines. Rectangles within multiple rectangles do not count.",
-		"a":"30",
-		"h":"There are 6 per court",
+		"q":"Standing at the top of the stairs, you can see 5 tennis courts below. Including all 5 courts, how many dark green rectangles are there?<br>Only count dark green rectangles marked with permanent white lines. Rectangles within other such rectangles do not count.",
+		"a":"5",
+		"h":"There is only one big rectangle per court.",
 		"r":"Right!"
 	},
 	{
 		"f":"You're good at this, I'm getting MAD. MAD, MAD, MAD! I feel like creating the word MAD somewhere!",
 		"q":"There are other words you can make using this tool. Can you make a word that goes with BBQ?",
 		"a":"pit",
-		"h":"In the land of the sand, toddlers can spell words.<br>BBQ's often need a hollow indentation or hole in the ground, otherwise known as a ___. ",
+		"h":"In the land of the sand, toddlers can spell words.<br>The answer is not 'pig'.",
 		"r":"Right!"
 	},
 	{
@@ -106,9 +106,9 @@ var quest = [
 	},
 	{
 		"f":"A sign made of wood provides the phone number to reserve the Boyle Park picnic area. Find this sign.",
-		"q":"Writing the letter F requires three strokes, the top line, middle line and vertical line. How many strokes did the person carving this sign have to make? ",
-		"a":"73",
-		"h":"It more than 70 strokes! The number 8 took three strokes.",
+		"q":"Writing the letter F requires three strokes, the top line, middle line and vertical line. How many strokes did the person carving this sign have to make? The \"G\" and \"8\" took three strokes.",
+		"a":"75",
+		"h":"It more than 72 strokes!",
 		"r":"Right!"
 	},
 	{
@@ -120,8 +120,8 @@ var quest = [
 	},
 	{
 		"f":"Near the footbridge, find the sign with drawings of *both* fish and birds.",
-		"q":"How many circles do you see? Partial circles count.",
-		"a":"15",
+		"q":"How many circles do you see? Partial circles count, but letters do not.",
+		"a":"17",
 		"h":"There are more than a dozen, but less than 20.",
 		"r":"Right!"
 	},

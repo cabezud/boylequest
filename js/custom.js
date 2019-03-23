@@ -99,6 +99,10 @@ function updatePtsSection() {
 	$('.pts-value').text( pts );
 };
 
+$('.zoom').click(function(){
+	$('.zoom-advice').show();
+})
+
 var initCustom = function() { console.log("initCustom fired.")
 	var url_string = window.location.href;
 	var url = new URL(url_string);

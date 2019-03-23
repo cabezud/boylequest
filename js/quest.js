@@ -71,7 +71,7 @@ var quest = [
 	},
 	{
 		"f":"Congrats, you deserve a hand! Look around, and you'll see lots of hands, imprinted by children of families that have supported Boyle Park. In the sandy area, can you find three hands together?",
-		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square? Do *not* add the numbers individually this time.",
+		"q":"Starting on the square with three hands, move nine squares to the right. What is the sum of the numbers on that square?",
 		"a":"2048",
 		"h":"Make sure you're in the sandy area. The answer is at least 1,988",
 		"r":"Right!"

@@ -58,3 +58,4 @@ button, input[value="Make"] {
   font-style: italic;
 }
 .footer a { color: gray; }
+.zoom-advice { display: none; }
